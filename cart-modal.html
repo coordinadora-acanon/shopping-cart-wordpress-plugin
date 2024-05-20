@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Carrito de Compras</ion-title>
+    <ion-buttons slot="end">
+      <ion-button onclick="dismissModal()">Cerrar</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-list id="cartList">
+  </ion-list>
+  <ion-item id="cartTotal"></ion-item>
+  <ion-button expand="full" color="danger" onclick="cartWidget.clearCart()">Vaciar Carrito</ion-button>
+</ion-content>
